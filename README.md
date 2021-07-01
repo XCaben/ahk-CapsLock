@@ -12,7 +12,7 @@
 
 `Caps Lock + i or j or k or l`  >>  `↑ or ← or ↓ or →`
 
-`Caps Lock + f + i or j or k or l `  >>  `Shift + ↑ or ← or ↓ or →`
+`Caps Lock + f + i or j or k or l`  >>  `Shift + ↑ or ← or ↓ or →`
 
 `Caps Lock + u or o`  >>  `Ctrl + ← or →` 
 
