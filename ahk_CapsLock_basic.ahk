@@ -10,7 +10,7 @@ Return
 
 
 ; ------------------ basic hotkey ------------------
-#if GetKeyState("CapsLock", "P")
+#if GetKeyState("CapsLock", "P") & !GetKeyState("ScrollLock", "T")
 
 ; move cursor
 i:: Send {up}

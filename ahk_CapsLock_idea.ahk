@@ -2,7 +2,7 @@
 
 
 ; ------------------ hotkey for idea ------------------
-#if GetKeyState("CapsLock", "P")
+#if GetKeyState("CapsLock", "P") & !GetKeyState("ScrollLock", "T")
 
 ; delete
 d:: Send ^{delete}
@@ -11,6 +11,6 @@ d:: Send ^{delete}
 m:: Send ^{F11}
 
 ; format and remove import
-space:: Send ^!l ^!o
+space:: Send ^!l^!o
 
 Return
